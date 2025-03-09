@@ -1,0 +1,13 @@
+services:
+  glastables-equitazione-web:
+    container_name: glastables-equitazione-web
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+      args:
+        - PUBLIC_UMAMI_WEBSITE_ID=${PUBLIC_UMAMI_WEBSITE_ID}
+    environment:
+      - PUBLIC_UMAMI_WEBSITE_ID=${PUBLIC_UMAMI_WEBSITE_ID}
+    restart: unless-stopped
+    ports:
+      - ${WEB_PORT}:3000

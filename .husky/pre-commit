@@ -1,0 +1,32 @@
+diffFilesList=$(git diff --diff-filter=d --cached --name-only)
+
+echo "Starting pre-commit hook..."
+
+echo ""
+echo "file modified:"
+echo $diffFilesList
+
+echo ""
+svelteDiffFileList=$(echo $diffFilesList | grep -E '\.(js|ts|svelte|html|css)$') || $(echo "")
+
+if [ ${#svelteDiffFileList} -gt 0 ]; then
+	echo "svelte files modified!"
+	echo ""
+	echo "Running lint-staged..."
+	pnpm exec lint-staged
+	echo ""
+	echo "Running svelte-check..."
+	pnpm check
+	echo ""
+	echo "Running build..."
+	pnpm build
+else
+	echo "no svelte files modified"
+	echo "no actions taken"
+	echo ""
+	echo "committing..."
+fi
+
+echo ""
+echo "pre-commit hook finished!"
+echo ""

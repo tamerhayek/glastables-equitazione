@@ -1,0 +1,50 @@
+{
+	"name": "glastables-equitazione",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"start": "node -r dotenv/config build",
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "husky && (svelte-kit sync || echo '')",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"format": "prettier --write .",
+		"lint": "prettier --check . && eslint .",
+		"verify": "pnpm format && pnpm check && pnpm lint"
+	},
+	"devDependencies": {
+		"@eslint/compat": "^1.2.5",
+		"@eslint/js": "^9.18.0",
+		"@sveltejs/adapter-node": "^5.2.11",
+		"@sveltejs/kit": "^2.16.0",
+		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"@tailwindcss/vite": "^4.0.0",
+		"daisyui": "^5.0.0",
+		"eslint": "^9.18.0",
+		"eslint-config-prettier": "^10.0.1",
+		"eslint-plugin-svelte": "^2.46.1",
+		"globals": "^15.14.0",
+		"prettier": "^3.4.2",
+		"prettier-plugin-svelte": "^3.3.3",
+		"prettier-plugin-tailwindcss": "^0.6.11",
+		"svelte": "^5.0.0",
+		"svelte-check": "^4.0.0",
+		"tailwindcss": "^4.0.0",
+		"typescript": "^5.0.0",
+		"typescript-eslint": "^8.20.0",
+		"vite": "^6.0.0"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
+	},
+	"packageManager": "pnpm@9.15.5+sha512.845196026aab1cc3f098a0474b64dfbab2afe7a1b4e91dd86895d8e4aa32a7a6d03049e2d0ad770bbe4de023a7122fb68c1a1d6e0d033c7076085f9d5d4800d4",
+	"dependencies": {
+		"@fontsource-variable/cinzel": "^5.2.5",
+		"@tailwindcss/typography": "^0.5.16"
+	}
+}
