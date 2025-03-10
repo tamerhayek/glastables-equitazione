@@ -33,4 +33,7 @@
 	.container-centered {
 		@apply flex w-full max-w-6xl p-5;
 	}
+	.prose {
+		@apply !max-w-[95ch];
+	}
 }
