@@ -19,7 +19,7 @@
 <div class="flex min-h-screen w-full flex-col items-center">
 	<Navbar />
 	<div class="flex w-full justify-center">
-		<div class="flex w-full flex-col items-center gap-20 pt-18">
+		<div class="flex w-full flex-col items-center gap-20">
 			<main class="flex w-full justify-center gap-5">
 				{@render children()}
 			</main>

@@ -22,7 +22,7 @@
 	<meta property="twitter:image" content={`${page.url.origin}/logo.webp}`} />
 </svelte:head>
 
-<div class="flex flex-col gap-40 py-20">
+<div class="flex flex-col gap-40 py-40">
 	<section
 		id="gianluca-apolloni"
 		class="container-centered flex-col justify-between gap-10 lg:flex-row"
