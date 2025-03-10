@@ -16,8 +16,8 @@
 {/snippet}
 
 <div class="fixed top-2 z-30 flex w-full justify-center px-3 lg:px-0">
-	<nav class="navbar bg-base-100 max-w-6xl rounded-4xl shadow-sm">
-		<div class="navbar-start">
+	<nav class="navbar bg-base-100 max-w-6xl rounded-4xl py-0 shadow-sm">
+		<div class="navbar-start ps-1">
 			<div class="dropdown">
 				<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
 					<svg
@@ -36,7 +36,7 @@
 					</svg>
 				</div>
 				<ul
-					class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 gap-2 p-2 shadow"
+					class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-4 w-52 gap-2 p-2 shadow"
 				>
 					{@render links()}
 				</ul>
