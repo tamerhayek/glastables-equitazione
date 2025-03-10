@@ -7,6 +7,8 @@
 		></div>
 	</div>
 	<div class="container-centered z-20 h-full flex-col justify-end pb-20 text-center lg:text-start">
-		<h1 class="text-5xl md:text-7xl font-bold text-white capitalize lg:text-8xl">Gla Stables Equitazione</h1>
+		<h1 class="text-5xl font-bold text-white capitalize md:text-7xl lg:text-8xl">
+			Gla Stables Equitazione
+		</h1>
 	</div>
 </section>

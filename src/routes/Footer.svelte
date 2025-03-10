@@ -9,7 +9,7 @@
 			<aside class="flex flex-col gap-3">
 				<p>
 					©{new Date().getFullYear()}
-					<a href="/" data-sveltekit-preload-data="tap"> Gla Stables Equitazione </a>
+					<a href="/" class="link link-hover"> Gla Stables Equitazione </a>
 				</p>
 				<p>P.Iva/CF ...</p>
 			</aside>
