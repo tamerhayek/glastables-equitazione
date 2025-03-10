@@ -3,20 +3,18 @@
 	import { BrandInstagram } from '@steeze-ui/tabler-icons';
 </script>
 
-<footer class="flex w-full justify-center rounded-lg pt-20 pb-40 lg:pb-20">
+<footer class="bg-base-300 flex w-full justify-center rounded-t-4xl pt-20 pb-40 lg:pb-20">
 	<div class="flex w-full max-w-6xl flex-col items-center justify-between px-5">
-		<nav class="flex w-full justify-start py-10 text-xl">
-			<a href="/" data-sveltekit-preload-data="tap"> Gla Stables Equitazione </a>
-		</nav>
 		<section class="flex w-full flex-col justify-between gap-10 md:flex-row">
 			<aside class="flex flex-col gap-3">
 				<p>
-					©{new Date().getFullYear()} Gla Stables Equitazione
+					©{new Date().getFullYear()}
+					<a href="/" data-sveltekit-preload-data="tap"> Gla Stables Equitazione </a>
 				</p>
 				<p>P.Iva/CF ...</p>
 			</aside>
 			<nav class="text-lg">
-				<p>Via ... <br /> ... Terracina</p>
+				<p>Via ... <br /> ... Tivoli</p>
 				<a href="mailto:mail@example.com" class="hover:underline">mail@example.com</a>
 			</nav>
 			<nav class="flex gap-2">
