@@ -26,7 +26,7 @@
 	<section id="scuola-di-equitazione" class="container-centered flex-col gap-10">
 		<h2 class="text-primary-content w-full text-3xl font-bold">Scuola di Equitazione</h2>
 
-		<div class="flex gap-10">
+		<div class="flex flex-col gap-10 lg:flex-row">
 			<div class="order-2 flex w-full grow flex-col gap-3 lg:order-1">
 				<p class="prose grow">
 					Nella nostra Scuola di Equitazione adulti e bambini possono seguire lezioni di monta
@@ -56,7 +56,7 @@
 	<section id="pony-club" class="container-centered flex-col gap-10">
 		<h2 class="text-primary-content w-full text-3xl font-bold">Pony Club</h2>
 
-		<div class="flex gap-10">
+		<div class="flex flex-col gap-10 lg:flex-row">
 			<div class="flex grow flex-col gap-2">
 				<img src="/assets/images/sample.webp" alt="Immagine" />
 			</div>
