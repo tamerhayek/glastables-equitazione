@@ -12,14 +12,14 @@
 	<meta property="og:url" content="{page.url.origin}{page.url.pathname}" />
 	<meta property="og:title" content="La Struttura | Gla Stables Equitazione" />
 	<meta property="og:description" content="" />
-	<meta property="og:image" content={`${page.url.origin}/logo.webp}`} />
+	<meta property="og:image" content={`${page.url.origin}/logo.webp`} />
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:url" content="{page.url.origin}{page.url.pathname}" />
 	<meta property="twitter:title" content="La Struttura | Gla Stables Equitazione" />
 	<meta property="twitter:description" content="" />
-	<meta property="twitter:image" content={`${page.url.origin}/logo.webp}`} />
+	<meta property="twitter:image" content={`${page.url.origin}/logo.webp`} />
 </svelte:head>
 
 <div class="flex flex-col gap-40 py-40">
