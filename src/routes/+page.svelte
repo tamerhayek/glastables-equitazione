@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
+	import About from './About.svelte';
 	import Hero from './Hero.svelte';
 </script>
 
@@ -23,4 +24,9 @@
 	<meta property="twitter:image" content={`${page.url.origin}/logo.webp}`} />
 </svelte:head>
 
-<Hero />
+<div class="flex w-full flex-col items-center gap-20">
+	<Hero />
+	<div class="container-centered gap-20">
+		<About />
+	</div>
+</div>
