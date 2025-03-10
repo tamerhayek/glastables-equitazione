@@ -3,7 +3,7 @@
 	import { BrandInstagram } from '@steeze-ui/tabler-icons';
 </script>
 
-<footer class="bg-base-300 flex w-full justify-center rounded-t-4xl pt-20 pb-40 lg:pb-20">
+<footer class="flex w-full justify-center pt-20 pb-40 lg:pb-20">
 	<div class="container-centered items-center justify-between">
 		<section class="flex w-full flex-col justify-between gap-10 md:flex-row">
 			<aside class="flex flex-col gap-3">

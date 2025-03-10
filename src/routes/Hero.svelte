@@ -1,4 +1,4 @@
-<section id="hero" class="relative flex min-h-[70dvh] w-full flex-col items-center">
+<section id="hero" class="relative flex min-h-[85dvh] w-full flex-col items-center">
 	<div
 		class="absolute top-0 left-0 z-0 h-full w-full overflow-hidden rounded-b-4xl bg-[url(/assets/images/hero.webp)] bg-cover bg-center bg-no-repeat"
 	>
@@ -7,6 +7,6 @@
 		></div>
 	</div>
 	<div class="container-centered z-20 h-full flex-col justify-end pb-20 text-center lg:text-start">
-		<h1 class="text-5xl font-bold text-white capitalize lg:text-7xl">Gla Stables Equitazione</h1>
+		<h1 class="text-5xl md:text-7xl font-bold text-white capitalize lg:text-8xl">Gla Stables Equitazione</h1>
 	</div>
 </section>
