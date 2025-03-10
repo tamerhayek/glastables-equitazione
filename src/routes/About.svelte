@@ -1,4 +1,7 @@
-<section id="about" class="flex flex-col items-end justify-between gap-10 lg:flex-row">
+<section
+	id="about"
+	class="container-centered flex-col items-end justify-between gap-10 lg:flex-row"
+>
 	<div class="order-2 grow lg:order-1">
 		<p class="prose max-w-[95ch] lg:text-justify">
 			<i>
@@ -26,7 +29,7 @@
 		</p>
 	</div>
 	<div class="order-1 flex grow flex-col gap-2 lg:order-2">
-		<h2 class="w-full text-end">Gianluca Apolloni</h2>
+		<h2 class="w-full text-end text-xl font-bold">Gianluca Apolloni</h2>
 		<img src="/assets/images/sample.webp" alt="Immagine" />
 	</div>
 </section>

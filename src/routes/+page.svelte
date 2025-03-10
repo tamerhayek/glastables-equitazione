@@ -2,6 +2,7 @@
 	import { page } from '$app/state';
 	import About from './About.svelte';
 	import Hero from './Hero.svelte';
+	import Location from './Location.svelte';
 </script>
 
 <svelte:head>
@@ -26,7 +27,6 @@
 
 <div class="flex w-full flex-col items-center gap-20">
 	<Hero />
-	<div class="container-centered gap-20">
-		<About />
-	</div>
+	<About />
+	<Location />
 </div>
