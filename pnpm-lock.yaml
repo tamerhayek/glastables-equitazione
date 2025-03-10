@@ -21,6 +21,12 @@ importers:
       '@eslint/js':
         specifier: ^9.18.0
         version: 9.22.0
+      '@steeze-ui/svelte-icon':
+        specifier: ^1.6.2
+        version: 1.6.2(svelte@5.22.6)
+      '@steeze-ui/tabler-icons':
+        specifier: ^3.3.1
+        version: 3.3.1
       '@sveltejs/adapter-node':
         specifier: ^5.2.11
         version: 5.2.12(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.1(jiti@2.4.2)(lightningcss@1.29.2)))(svelte@5.22.6)(vite@6.2.1(jiti@2.4.2)(lightningcss@1.29.2)))
@@ -465,6 +471,14 @@ packages:
     resolution: {integrity: sha512-PIQeY5XDkrOysbQblSW7v3l1MDZzkTEzAfTPkj5VAu3FW8fS4ynyLg2sINp0fp3SjZ8xkRYpLqoKcYqAkhU1dw==}
     cpu: [x64]
     os: [win32]
+
+  '@steeze-ui/svelte-icon@1.6.2':
+    resolution: {integrity: sha512-Q2WP/RkM1JhMueX0FJogSj4J1bncSHaAiiPCqjcseRcHKqfpjYFPJa8bA50I+4KbyOVJ9fdUvTQ3ww9X0ITRxQ==}
+    peerDependencies:
+      svelte: ^5.0.0
+
+  '@steeze-ui/tabler-icons@3.3.1':
+    resolution: {integrity: sha512-9fUPEXsYMgBHazEX35Xca+yONIcVmLGVdKXacpCgOZ0I6l/s/cjQduHEnU/zJvPpwP4K1C8jJfUDq3PsZt6SSQ==}
 
   '@sveltejs/acorn-typescript@1.0.5':
     resolution: {integrity: sha512-IwQk4yfwLdibDlrXVE04jTZYlLnwsTT2PIOQQGNLWfjavGifnk1JD1LcZjZaBTRcxZu2FfPfNLOE04DSu9lqtQ==}
@@ -1737,6 +1751,12 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.35.0':
     optional: true
+
+  '@steeze-ui/svelte-icon@1.6.2(svelte@5.22.6)':
+    dependencies:
+      svelte: 5.22.6
+
+  '@steeze-ui/tabler-icons@3.3.1': {}
 
   '@sveltejs/acorn-typescript@1.0.5(acorn@8.14.1)':
     dependencies:
